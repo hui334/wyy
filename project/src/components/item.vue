@@ -1,9 +1,9 @@
 <template>
 	<div class="aitem">
 		<div v-for="(value,index) in goods" :key='index' class="item" @click="btn(index)">
-			<a :href="a+value.iid">
+			
 				<img :src="value.show.img" alt="">
-			</a>
+			
 				
 				<p class="title">{{value.title}}</p>
 				<span class="collect"><span>{{value.price}}</span><img src="@/assets/collect.svg" alt=""></span>
@@ -24,10 +24,10 @@
 			}
 		},
 		methods:{
-			/* btn(index){
+			btn(index){
 				console.log(this.goods[index].iid)
 				this.$router.push('/detail/'+this.goods[index].iid)
-			} */
+			}
 		}
 	}
 </script>
@@ -40,9 +40,9 @@
 		
 	}
 	.item{
-		padding: 4px;
-		width: 150px;
-		margin-left: 20px;
+		padding: 0.25rem;
+		width: 9.375rem;
+		margin-left: 1.25rem;
 		
 	}
 	.aitem{

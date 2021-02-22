@@ -98,6 +98,8 @@
 		border-right: 2px solid #f2f0f2;
 	}
 	.bd{
+		width: 20%;
+		height: 20%;
 		border-radius: 50%;
 		border: 1px solid #f2f0f2;		
 	}
@@ -111,7 +113,7 @@
 		display: flex;
 	}
 	.bds span{
-		margin-top: 25px;
+		line-height: 81px;
 		margin-left: 10px;
 		color: #FFC0CB;
 	}

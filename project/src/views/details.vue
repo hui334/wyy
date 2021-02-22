@@ -166,6 +166,9 @@
 </script>
 
 <style>
+	.top img{
+		width: 25%;
+	}
 	.top{
 		background-color: #fff ;
 	}
@@ -179,9 +182,9 @@
 		border-bottom: 2px solid #F0F8FF;
 		
 	}
-	.details img{
+	/* .details img{
 		width: 25%;
-	}
+	} */
 	.title{
 		display: flex;
 	}
@@ -203,7 +206,6 @@
 	   background-color: #39a9ed;
 	 }
 	 .van-swipe-item img{
-			  width:375px;
-			  height: 350px;
+			  width:100%;
 	 }
 </style>

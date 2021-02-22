@@ -29,8 +29,7 @@
 		color: #FFC0CB;
 	}
 	.bimg{
-		width: 375px !important;
-		height: 350px;
+		width:100%
 	}
 	.desc{
 		margin-top: 20px;
